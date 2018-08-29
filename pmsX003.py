@@ -14,7 +14,7 @@ port = serial.Serial('/dev/ttyS0', baudrate=9600, timeout=2.0)
 broker = "live.solentairwatch.co.uk" #"mqtt.opensensors.io"  # "46.101.13.195"     # test broker
 topic = "/sniffy/test" #"/orgs/solentairwatch/sniffy"
 username = "data"
-passwd = "IReallyLikeNO2!"
+passwd = "password"
 csvFile = "PMSx003.csv" # keep a local copy for debug
 
 def on_connect(client, userdata, flags, rc):
